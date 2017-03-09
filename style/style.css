@@ -1,0 +1,506 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+.hide {
+    display:none;
+}
+.show {
+    display: block;
+}
+
+/*HEADER*/
+
+.header {
+    width: 100%;
+    height: 100%;
+}
+
+.top-bar {
+    font-size: 12px;
+    color: #666666;
+    height: 31px;
+    line-height: 31px;
+    background-color: #f7f7f7;
+}
+
+.top-bar a {
+    color: inherit;
+}
+
+.top-bar a:hover {
+    color: red;
+}
+
+.comWidth {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*left-area*/
+
+.left-area {
+    float: left;
+}
+
+.collection {
+    background: url('../images/1STAR_03.jpg') left center no-repeat;
+    padding-left: 19px;
+}
+
+.right-area {
+    float: right;
+}
+
+
+/*lOGO BAR*/
+
+.logo-bar {
+    height: 85px;
+    background-color: #1d7ad9;
+}
+
+#logo a img {
+    padding-left: 40px;
+    padding-top: 13px;
+}
+
+.search-box {
+    height: 35px;
+    margin-top: 25px;
+    padding-left: 185px;
+}
+
+#search-input {
+    width: 360px;
+    height: 35px;
+    border: none;
+    padding-left: 5px;
+}
+
+#search-button {
+    font-size: 14px;
+    font-family: "Microsoft Yahei" '微软雅黑';
+    color: #fff;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    box-sizing: content-box;
+    background-color: #ff8c00;
+}
+
+
+/*car*/
+
+.car {
+    font: 14px "Microsoft Yahei";
+    color: #fff;
+    width: 145px;
+    background-color: #ff8c00;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+#car-logo {
+    background: url('../images/car_03.jpg') 10px center no-repeat;
+    padding-left: 40px;
+    padding-right: 5px;
+    height: 100%;
+    color: #fff;
+    border-right: 1px solid #e27a00;
+}
+
+#car-num {
+    width: 27px;
+    height: 35px;
+    background: url('../images/down.jpg') 33px center no-repeat;
+    text-align: right;
+    border-left: 1px solid #ff9c01;
+    padding-right: 29px;
+    color: #fff;
+}
+
+/*导航栏*/
+.navi {
+    height: 100%;
+}
+.navi-bar {
+    height: 35px;
+    background-color: #1369c0;
+    color: #fff;
+    padding: 0 35px;
+}
+#nav-title {
+    width: 190px;
+    position: relative;
+}
+
+.all {
+    margin-left: 40px;
+    font: 16px "Microsoft Yahei";
+    color: #fff;
+    display: inline-block;
+    line-height: 35px;
+}
+
+#nav-title i {
+    width: 11px;
+    height: 7px;
+    background: url('../images/down_blue.jpg') left center no-repeat;
+    display: inline-block;
+    margin-left: 11px;
+}
+
+#nav-ul {
+    width: 600px;
+    font: 14px "Microsoft Yahei";
+    color: #fff;
+    line-height: 35px;
+    height: 35px;
+}
+
+#nav-ul li {
+    list-style: none;
+}
+
+#nav-ul li a {
+    font: 14px "Microsoft Yahei";
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    padding: 0 30px;
+    color: #FFF;
+}
+
+.active {
+    background-color: #4593fd;
+}
+
+
+/*show item*/
+
+.show-class {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    border-top:1px solid #5aa1fe;
+}
+
+.item-class {
+    background-color: #4593fd;
+    text-align: left;
+    color: #fff;
+    padding: 11px;
+    border-bottom: 1px solid #3487f2;
+}
+.item-class dt {
+    /*background: url('../images/laft-arrow.png') right center no-repeat;*/
+    height: 21px;
+    line-height: 21px;
+}
+
+.item-class dt a {
+    color: inherit;
+    font: 14px "Microsoft Yahei";
+}
+
+.item-class dd a {
+    font: 12px "宋体";
+    color: inherit;
+}
+.item-class a:hover {
+    background: #106ac0 center;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.item-active {
+    background-color: #fff;
+    color: #000;
+    border-left: 1px solid #4593fd;
+    border-right: 1px solid #4593fd;
+}
+.item-active dt{
+    background: none;
+}
+/*item list*/
+
+.item-list {
+    width: 570px;
+    font: 12px "宋体";
+    position: absolute;
+    top: 35px;
+    left: 180px;
+}
+
+.item-detail {
+    margin-left: 20px;
+    padding: 1px 0;
+    width: 530px;
+    border-bottom: 1px solid #666;
+    color: #666666;
+}
+
+.item-detail dt {
+    line-height: 24px;
+    height: 24px;
+    color: #4b88da;
+    font-weight: bold;
+}
+
+.item-detail dd {
+    line-height: 24px;
+    margin-top: -24px;
+    padding-left: 90px;
+}
+
+.item-detail dd a {
+    font: 12px "宋体";
+    color: #666666;
+}
+
+
+/*商品频道按钮*/
+
+.item-detail-chanel {
+    display: inline-block;
+    width: 105px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 8px;
+    color: #fff;
+    background-color: #2785e6;
+}
+
+.item-detail-chanel span {
+    display: inline-block;
+    width: 11px;
+    height: 7px;
+    margin-right: 8px;
+    background: url('../images/laft-arrow.png') left center no-repeat;
+}
+/*banner轮滚*/
+.banner {
+    height: 100%;
+}
+.banner-bar {
+	width:810px;
+	height: 326px;
+    overflow: hidden;
+	float:right;
+    position: relative;
+}
+.banner-bar ul {
+	list-style: none;
+}
+.image-box {
+    width: 1620px;
+    height: 326px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+.image-box li{
+    float: left;
+}
+.image-box img {
+    width: 810px;
+    height: 326px;
+}
+
+.banner-num {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 10px;
+}
+.banner-num a {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background-color: #fff;
+    margin-right: 4px;
+}
+.banner-num .active {
+    background-color: #f70;
+}
+/*商品展示标题*/
+.context-title {
+    height: 44px;
+    line-height: 44px;
+    font-family: 'Microsoft Yahei';
+    margin: 15px 0;
+}
+.context-title h3 {
+    font-size: 24px;
+    font-weight: normal;
+    float: left;
+    padding-left: 14px;
+}
+#icon {
+    width: 44px;
+    height: 44px;
+    background: url('../images/typeicon.png') left top no-repeat;
+    float: left;
+    display: inline-block;
+}
+.context-title span {
+    font-family: '宋体';
+    font-size:  12px;
+    float: right;
+}
+.context-title span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*商品内容图片展示*/
+.context-list {
+
+}
+.list-left {
+    width: 190px;
+    height: 400px;
+    background:url('../images/left_bar.jpg') left top no-repeat;
+    overflow: hidden;
+}
+.list-left h3{
+    display: inline-block;
+    width: 190px;
+    text-align: center;
+    margin-top: 235px;
+    line-height: 24px;
+    color: white;
+    height: 24px;
+    font-size: 20px;
+}
+.activity {
+    color: white;
+    padding-left: 30px;
+}
+.more {
+    font-size: 12px;
+    text-align: center;
+    display:block;
+    line-height: 30px;
+    height: 30px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color: white;
+}
+.list-left .banner-num {
+    position: relative;
+    left: 0;
+    margin-left: -18px;
+    margin-top: 20px;
+}
+/*右边商品列表*/
+.list-left {
+    float: left;
+}
+.list-right {
+    width:810px;
+    height: 396px;
+    float: left;
+}
+.info-area {
+    width: 201px;
+    height: 396px;
+    border-top: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 3px solid #ff7201;
+    float: left;
+}
+.top-area {
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.top-area img{
+    display: block;
+    width: 135px;
+    height: 155px;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.top-area h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.top-area span{
+    line-height: 24px;
+    color: #ff7700;
+}
+
+.bottom-context {
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+}
+.bottom-context img {
+    float: left;
+    line-height: 120px;
+    width: 80px;
+    height: 60px;
+    margin-left: 5px;
+}
+.item-text {
+    font-family: 'microsoft yahei';
+    font-size: 12px;
+    color: #ff7700;
+    float: left;
+    width: 95px;
+    height: 60px;
+    margin-left: 10px;
+}
+.item-text span{
+    color: #000;
+}
+/*底部*/
+.footer {
+    font-family: "新宋体";
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    line-height: 24px;
+    padding: 20px 0;
+    background-color: #d4d4d4;
+}
+.footer i {
+    margin-left: 0 5px;
+}
+.footer a {
+    color: #000;
+}
+.footer a:hover{
+    cursor: pointer;
+}
+.footer img {
+    margin-top: 20px;
+    margin-left: 24px;
+}
